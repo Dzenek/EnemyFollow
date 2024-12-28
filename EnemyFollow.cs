@@ -4,8 +4,8 @@ public class EnemyFollow : MonoBehaviour
 {
     BoxCollider2D boxCollider2D;
     
-    private Transform player; // Transform gracza
-    public float speed = 3f; // Prędkość poruszania się wroga
+    private Transform player; 
+    public float speed = 3f; 
 
     void Start()
     {
